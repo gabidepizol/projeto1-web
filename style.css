@@ -1,0 +1,152 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+li.globo{
+    color: blue;
+}
+
+li.g1{
+    color: red;
+}
+
+li.ge{
+    color: green;
+}
+
+li.gshow{
+    color: #ffa500;
+}
+
+li a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul.header2{
+    background-color: green;
+    height: 60px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;    
+}
+
+li.esquerda{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+li.times{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+li.gecom{
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+li.direita{
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+ul.headerpremiere{
+    background-color: #ffffff;
+    height: 60px;
+    display: block;
+    text-align: center;
+    text-decoration: none; 
+    border: 1px solid #8C8C8C;
+       
+}
+/*
+.dropmenu ul, .dropmenu ul li{
+    display:inline;
+    margin:0;
+    padding: 30px;
+    list-style:none;}
+
+
+.dropmenu ul li a{
+    display:inline-block;
+    width:120px;
+    font-family:georgia;
+    font-size:14px;
+    color:#000;
+    text-align:center;
+    text-decoration:none;
+    background:#ddd;
+}
+.dropmenu ul li a:hover{
+    display:inline-block;
+    width:120px;
+    font-family:georgia;
+    font-size:14px;
+    color:#666;text-align:center;
+    text-decoration:none;
+    background:#eee;
+    margin:-2px 0px 0px 0px;
+    border:#ccc 2px solid;
+    padding:3px 7px 3px 7px}
+
+.dropmenu li ul{
+    display:none;
+    position:absolute;
+    top:23px;
+    left:0px
+}
+.dropmenu ul li:hover ul{
+    display:inline-block
+}
+.dropmenu ul ul, .dropmenu ul li:hover ul ul, .dropmenu ul ul li:hover ul ul{display:none}
+.dropmenu ul li:hover ul, .dropmenu ul ul li:hover ul, .dropmenu ul ul ul li:hover ul{display:block}
+*/
+
+.quadradomaior{
+    height: 150px;
+    width: 150px;
+    padding: 300px;
+    background-color: black;
+    float: left;
+}
+
+.quad1{
+    width:700px;
+    height:370px;
+    background-color:red;
+    float:left;
+    margin-left: 15px;
+}
+
+.quad2{
+    width:700px;
+    height:365px;
+    background-color:yellow;
+    float:left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.wrap {
+    margin: 50px 50px 50px 150px;
+}
